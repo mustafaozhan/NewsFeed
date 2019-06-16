@@ -56,15 +56,31 @@
 		5C34CD3A22B64555005E677E /* NewsFeed */ = {
 			isa = PBXGroup;
 			children = (
-				5C34CD3B22B64555005E677E /* AppDelegate.swift */,
+				5C34CD5122B6460A005E677E /* App */,
+				5C34CD5022B6458B005E677E /* Resources */,
 				5C34CD3D22B64555005E677E /* ViewController.swift */,
+			);
+			path = NewsFeed;
+			sourceTree = "<group>";
+		};
+		5C34CD5022B6458B005E677E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				5C34CD3F22B64555005E677E /* Main.storyboard */,
 				5C34CD4522B64556005E677E /* Assets.xcassets */,
 				5C34CD4722B64556005E677E /* LaunchScreen.storyboard */,
 				5C34CD4A22B64556005E677E /* Info.plist */,
 				5C34CD4222B64555005E677E /* NewsFeed.xcdatamodeld */,
 			);
-			path = NewsFeed;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5C34CD5122B6460A005E677E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5C34CD3B22B64555005E677E /* AppDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +304,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8MTR5SHZFD;
-				INFOPLIST_FILE = NewsFeed/Info.plist;
+				INFOPLIST_FILE = NewsFeed/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +322,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8MTR5SHZFD;
-				INFOPLIST_FILE = NewsFeed/Info.plist;
+				INFOPLIST_FILE = NewsFeed/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
