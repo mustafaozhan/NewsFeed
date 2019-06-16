@@ -13,6 +13,11 @@
 		5C34CD4422B64555005E677E /* NewsFeed.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C34CD4222B64555005E677E /* NewsFeed.xcdatamodeld */; };
 		5C34CD4622B64556005E677E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C34CD4522B64556005E677E /* Assets.xcassets */; };
 		5C34CD4922B64556005E677E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C34CD4722B64556005E677E /* LaunchScreen.storyboard */; };
+		5C34CD5422B64A5B005E677E /* SocialService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C34CD5322B64A5B005E677E /* SocialService.swift */; };
+		5C34CD5822B64AAB005E677E /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C34CD5722B64AAB005E677E /* Feed.swift */; };
+		5C34CD5A22B64AFC005E677E /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C34CD5922B64AFC005E677E /* Member.swift */; };
+		5C34CD5C22B64B2A005E677E /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C34CD5B22B64B2A005E677E /* Photo.swift */; };
+		5C34CD5F22B64B9A005E677E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C34CD5E22B64B9A005E677E /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		5C34CD4522B64556005E677E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C34CD4822B64556005E677E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C34CD4A22B64556005E677E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C34CD5322B64A5B005E677E /* SocialService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialService.swift; sourceTree = "<group>"; };
+		5C34CD5722B64AAB005E677E /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		5C34CD5922B64AFC005E677E /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
+		5C34CD5B22B64B2A005E677E /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		5C34CD5E22B64B9A005E677E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,9 @@
 		5C34CD3A22B64555005E677E /* NewsFeed */ = {
 			isa = PBXGroup;
 			children = (
+				5C34CD5D22B64B89005E677E /* Extensions */,
+				5C34CD5522B64A90005E677E /* Model */,
+				5C34CD5222B64A3F005E677E /* Service */,
 				5C34CD5122B6460A005E677E /* App */,
 				5C34CD5022B6458B005E677E /* Resources */,
 				5C34CD3D22B64555005E677E /* ViewController.swift */,
@@ -81,6 +94,32 @@
 				5C34CD3B22B64555005E677E /* AppDelegate.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		5C34CD5222B64A3F005E677E /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				5C34CD5322B64A5B005E677E /* SocialService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		5C34CD5522B64A90005E677E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5C34CD5722B64AAB005E677E /* Feed.swift */,
+				5C34CD5922B64AFC005E677E /* Member.swift */,
+				5C34CD5B22B64B2A005E677E /* Photo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5C34CD5D22B64B89005E677E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5C34CD5E22B64B9A005E677E /* Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,8 +193,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C34CD5C22B64B2A005E677E /* Photo.swift in Sources */,
 				5C34CD3E22B64555005E677E /* ViewController.swift in Sources */,
+				5C34CD5A22B64AFC005E677E /* Member.swift in Sources */,
+				5C34CD5F22B64B9A005E677E /* Extensions.swift in Sources */,
+				5C34CD5822B64AAB005E677E /* Feed.swift in Sources */,
 				5C34CD4422B64555005E677E /* NewsFeed.xcdatamodeld in Sources */,
+				5C34CD5422B64A5B005E677E /* SocialService.swift in Sources */,
 				5C34CD3C22B64555005E677E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
